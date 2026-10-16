@@ -1,0 +1,40 @@
+# Credentials & secrets
+*.token
+*.env
+.secrets/
+*.key
+*.pem
+
+# Output & artifacts
+*_out/
+output/
+artifacts/
+*.log
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+$RECYCLE.BIN/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+.vs/
+.idea/
+*.suo
+*.user
+
+# Build
+bin/
+obj/
+*.exe
+*.dll
+*.msi
