@@ -45,3 +45,7 @@ tests/         — E2E tests
 ## Changelog
 
 - **2026-10-16** — repo dibuat, struktur awal.
+- **2026-10-17** (Box ini, Windows 10) — 3 tool inti: `env_report`
+  (sysadmin), `jsonc_check` + `ps51_lint` (dev); `tests/run_all.py` gate;
+  19/19 tes lulus. ps51_lint diuji ke nyata: 28 file .ps1 paket 09-MIGRASI
+  = 0 temuan.

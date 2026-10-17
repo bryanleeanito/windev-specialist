@@ -20,12 +20,17 @@ tools/
   recon/       — network & system recon (Windows)
   web/         — web development helpers (Windows)
   sysadmin/    — Windows administration & automation
+    env_report/   — snapshot OS/versi tool/disk (4 tes)
   security/    — Windows security & hardening
   dev/         — OpenCode AI agent utilities
+    jsonc_check/  — validasi config JSONC opencode.json (8 tes)
+    ps51_lint/    — deteksi sintaks PS7-only di file .ps1 (7 tes)
 configs/       — config templates
-tests/         — E2E tests
+tests/run_all.py — gate: jalankan semua tests.py
 HANDOFF.md     — status antar mesin
 ```
+
+Jalankan semua tes: `python tests/run_all.py` (exit 0 hanya kalau semua lulus).
 
 ## Aturan Repo
 
@@ -44,3 +49,5 @@ Setiap tool punya:
 ## Changelog
 
 - **2026-10-16** — repo dibuat.
+- **2026-10-17** — 3 tool inti pertama: `sysadmin/env_report`,
+  `dev/jsonc_check`, `dev/ps51_lint` — 19 tes lulus (`tests/run_all.py`).
