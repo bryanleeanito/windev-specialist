@@ -49,5 +49,5 @@ Setiap tool punya:
 ## Changelog
 
 - **2026-10-16** — repo dibuat.
-- **2026-10-17** — 3 tool inti pertama: `sysadmin/env_report`,
+- **2026-10-17** — 3 tool inti pertama (`f8613d0`): `sysadmin/env_report`,
   `dev/jsonc_check`, `dev/ps51_lint` — 19 tes lulus (`tests/run_all.py`).
